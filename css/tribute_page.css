@@ -20,9 +20,14 @@ header {
 }
 
 figure {
-    padding: 1px 10px 30px 10px;
+    padding: 1px 10px 20px 10px;
     background-color: white;
     text-align: center;
+}
+
+#image {
+    max-width: 100%;
+    height: auto;
 }
 
 figcaption {
@@ -31,6 +36,9 @@ figcaption {
 
 section {
     padding-top: 15px;
+    margin-bottom: 20px;
+    margin-left: 20%;
+    margin-right: 20%;
 }
 
 section h2 {
@@ -40,13 +48,21 @@ section h2 {
 }
 
 section ul {
-    margin-bottom: 60px;
+    margin-bottom: 50px;
 }
 
 li {
     margin-bottom: 20px;
-    margin-left: 20%;
-    margin-right: 20%;
+}
+
+blockquote {
+    font-style: italic;
+    margin-bottom: 70px;    
+}
+
+.quote-source {
+    display: block;
+    margin-top: 15px;
 }
 
 #img {
@@ -55,4 +71,11 @@ li {
 
 .bold {
     font-weight: 700;
+}
+
+footer {
+    padding-bottom: 10px;
+    margin-left: 15%;
+    margin-right: 15%;
+    font-size: 1.15em;
 }
